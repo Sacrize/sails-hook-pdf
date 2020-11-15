@@ -1,7 +1,7 @@
 {
-  "name": "sails-hook-pdf",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@sacrize/sails-hook-pdf",
+  "version": "1.0.1",
+  "description": "Simple pdf generation from template using the `wkhtmltopdf` library.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +25,6 @@
     "lodash": "^4.17.20",
     "path": "^0.12.7",
     "wkhtmltopdf": "^0.3.4"
-  }
+  },
+  "devDependencies": {}
 }
