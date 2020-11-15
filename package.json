@@ -1,0 +1,29 @@
+{
+  "name": "sails-hook-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Sacrize/sails-hook-pdf.git"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "author": "Jakub Paprocki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sacrize/sails-hook-pdf/issues"
+  },
+  "homepage": "https://github.com/Sacrize/sails-hook-pdf#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "fs": "0.0.1-security",
+    "lodash": "^4.17.20",
+    "path": "^0.12.7",
+    "wkhtmltopdf": "^0.3.4"
+  }
+}
